@@ -1,36 +1,13 @@
-/*----- Fonts ----*/
-
-@font-face {
-	font-family: Bbadr;
-	src:url(../fonts/BBADR.eot) format('eot'),
-		url(../fonts/BBADR.woff) format('woff'),
-		url(../fonts/BBADR.ttf) format('truetype');
-}
-
-@font-face {
-	font-family: Bkoodak;
-	src:url(../fonts/BKOODB.eot) format('eot'),
-		url(../fonts/BKOODB.woff) format('woff'),
-		url(../fonts/BKOODB.ttf) format('truetype');
-}
-
-@font-face {
-	font-family: Btitr;
-	src:url(../fonts/BTITRBD.eot) format('eot'),
-		url(../fonts/BTITRBD.woff) format('woff'),
-		url(../fonts/BTITRBD.ttf) format('truetype');
-}
-
 /*----- General Styles ----*/
 
 body {
 	direction: rtl;
 	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#1e5799+0,2989d8+50,7db9e8+100 */
-background: rgb(30,87,153); /* Old browsers */
-background: -moz-linear-gradient(top,  rgba(30,87,153,1) 0%, rgba(41,137,216,1) 50%, rgba(125,185,232,1) 100%); /* FF3.6-15 */
-background: -webkit-linear-gradient(top,  rgba(30,87,153,1) 0%,rgba(41,137,216,1) 50%,rgba(125,185,232,1) 100%); /* Chrome10-25,Safari5.1-6 */
-background: linear-gradient(to bottom,  rgba(30,87,153,1) 0%,rgba(41,137,216,1) 50%,rgba(125,185,232,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1e5799', endColorstr='#7db9e8',GradientType=0 ); /* IE6-9 */
+	background: rgb(30,87,153); /* Old browsers */
+	background: -moz-linear-gradient(top,  rgba(30,87,153,1) 0%, rgba(41,137,216,1) 50%, rgba(125,185,232,1) 100%); /* FF3.6-15 */
+	background: -webkit-linear-gradient(top,  rgba(30,87,153,1) 0%,rgba(41,137,216,1) 50%,rgba(125,185,232,1) 100%); /* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(to bottom,  rgba(30,87,153,1) 0%,rgba(41,137,216,1) 50%,rgba(125,185,232,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1e5799', endColorstr='#7db9e8',GradientType=0 ); /* IE6-9 */
 }
 
 a {
@@ -43,10 +20,6 @@ a:hover {
 
 .clear {
 	clear: both;
-}
-
-h1, h2, h3, h4, h5 {
-	font-family: Bkoodak;
 }
 
 img {
@@ -95,21 +68,20 @@ img {
 
 .search input {
 	width: 150px;
-    height: 34px;
-    border: 0;
-    background: #252525;
-    color: #dde1d5;
-    border-left: 1px solid #fff;
-    font-size: 20px;
-    font-family: Bkoodak;
-    padding-right: 10px;
+	height: 34px;
+	border: 0;
+	background: #252525;
+	color: #dde1d5;
+	border-left: 1px solid #fff;
+	font-size: 20px;
+	padding-right: 10px;
 }
 
 .search .search-btn {
 	float: left;
-    width: 35px;
-    height: 36px;
-    background: url('../images/search-btn.png') no-repeat center center #ed1c24;
+	width: 35px;
+	height: 36px;
+	background: url('../images/search-btn.png') no-repeat center center #ed1c24;
 }
 
 .top-menu {
@@ -133,13 +105,12 @@ img {
 
 .top-menu ul li a {
 	color: #fff;
-    font-family: Bkoodak;
-    font-size: 25px;
-    display: block;
-    height: 150px;
-   	padding-top: 53px;
-    padding-left: 8px;
-    padding-right: 8px;
+	font-size: 25px;
+	display: block;
+	height: 150px;
+	padding-top: 53px;
+	padding-left: 8px;
+	padding-right: 8px;
 }
 
 .top-menu ul li a:hover {
@@ -168,7 +139,6 @@ img {
 	height: 38px;
 	padding-right: 1px;
 	margin-top: 10px;
-	font-family: Bbadr;
 	font-size: 22px;
 	color: #757a74;
 	padding-top: 5px;
@@ -177,16 +147,15 @@ img {
 
 .form1 .register {
 	position: absolute;
-    left: 180px;
-    top: 43px;
-    width: 94px;
-    height: 42px;
-    background: #32004b;
-    border: 0;
-    color: #31fd02;
-    font-size: 24px;
-    font-family: Bkoodak;
-    border-radius: 15px;
+	left: 180px;
+	top: 43px;
+	width: 94px;
+	height: 42px;
+	background: #32004b;
+	border: 0;
+	color: #31fd02;
+	font-size: 24px;
+	border-radius: 15px;
 }
 
 .slider {
@@ -246,32 +215,30 @@ img {
 
 .slide-text {
 	float: left;
-    width: 250px;
-    margin: 82px 0 0 130px;
+	width: 250px;
+	margin: 82px 0 0 130px;
 }
 
 .slide-text h2 {
-	  font-family: Btitr;
-    font-size: 20px;
-    color: #125bf0;
-    background: #fff;
-    width: 150px;
-    opacity: 0.8;
-    text-align: center;
-    border-radius: 15px;
+	font-size: 20px;
+	color: #125bf0;
+	background: #fff;
+	width: 150px;
+	opacity: 0.8;
+	text-align: center;
+	border-radius: 15px;
 }
 
 .slide-text p {
-  	color: #f6ff02;
-    background: #ed1c24;
-    width: 150px;
-    border-radius: 15px;
-    height: 83px;
-    font-size: 23px;
-    text-align: center;
-    font-family: Bbadr;
-    margin-top: -30px;
-    padding-top: 30px;
+	color: #f6ff02;
+	background: #ed1c24;
+	width: 150px;
+	border-radius: 15px;
+	height: 83px;
+	font-size: 23px;
+	text-align: center;
+	margin-top: -30px;
+	padding-top: 30px;
 }
 
 .row3 {
@@ -280,15 +247,15 @@ img {
 
 .title {
 	width: 156px;
-    font-size: 33px;
-    border-radius: 15px;
-    border: 3px solid #39b54a;
-    margin-right: 410px;
-    text-align: center;
-    background: #440e62;
-    color: #fff;
-    margin-top: 14px;
-    margin-bottom: 10px;
+	font-size: 33px;
+	border-radius: 15px;
+	border: 3px solid #39b54a;
+	margin-right: 410px;
+	text-align: center;
+	background: #440e62;
+	color: #fff;
+	margin-top: 14px;
+	margin-bottom: 10px;
 }
 
 .content {

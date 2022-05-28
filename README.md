@@ -1,2 +1,2 @@
-# 10_Hoodads_Course
-A simple website for practicing HTML/CSS like an online web-design course.
+# Hoodad’s-Courses
+A simple Website for practicing HTML/CSS like an online Web-Design Course.

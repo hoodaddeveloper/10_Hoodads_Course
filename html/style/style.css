@@ -408,88 +408,110 @@ img {
     border-radius: 15px;
     margin-right: 33%;
 }
-footer{
+
+footer {
 	height: 80px;
 	text-align: center;
 	background-color: #363636;
 }
-footer ul{
+
+footer ul {
 	text-align: center;
 	display: inline-block;
 	margin-top: 10px;
 }
-footer ul li{
+
+footer ul li {
 	display: inline-block;
 	float: right;
 	margin-left: 10px;
 	border-left: 1px solid #fff;
 	padding-left: 10px;
 }
-footer ul li:last-child{
+
+footer ul li:last-child {
 	border-left: none;
 }
-footer ul li a{
+
+footer ul li a {
 	color: #f6a905;
 	font-family: Bbadr;
 	font-size: 20px;
 }
-footer .copyright{
+
+footer .copyright {
 	color: #e3e3e3;
 	margin-top: -5px;
 }
-@media screen and (max-width: 750px){
-	#main{
+
+@media screen and (max-width: 750px) {
+	#main {
 		width: 100%;
 	}
-	.search{
+
+	.search {
 		display: none;
 	}
-	.logo img{
+
+	.logo img {
 		margin-right: 160px;
 	}
-	.top-menu form{
+
+	.top-menu form {
 		display: none;
 	}
-	.slide-text{
+
+	.slide-text {
 		margin: 82px 0 0 80px;
 	}
-	.row3 .title{
+
+	.row3 .title {
 		margin-right: 40%;
 	}
-	.row4{
+
+	.row4 {
 		height: 660px;
 	}
-	.newsletter{
+
+	.newsletter {
 		width: 560px;
 	    margin-right: 10%;
 	}
-	.row4 .newsletter form{
+
+	.row4 .newsletter form {
    		margin: 18px 87px 10px 10px;
 	}
-	.row4 .newsletter form input{
+
+	.row4 .newsletter form input {
 		width: 290px;
 	    height: 59px;
 	    margin-right: 10%;
 	}
-	.save-btn{
+
+	.save-btn {
 	    margin-right: 40%;
 	}
-	.login{
+
+	.login {
 		width: 560px;
 	    margin-left: 13%;
 	}
-	.login h2{
+
+	.login h2 {
 		margin-right: 40%;
 	}
-	.row4 .login form{
+
+	.row4 .login form {
    		margin: 18px 87px 10px 10px;
 	}
-	.row4 .login form input{
+
+	.row4 .login form input {
 		width: 290px;
 	    height: 59px;
 	    margin-right: 10%;
 	}
-	.login-btn{
+
+	.login-btn {
 	    margin-right: 40%;
 	}
 }

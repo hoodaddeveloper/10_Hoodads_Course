@@ -301,9 +301,9 @@ img {
 
 .newsletter h2 {
 	background: #111111;
-    color: #e19f12;
-    text-align: center;
-    font-size: 30px;
+	color: #e19f12;
+	text-align: center;
+	font-size: 30px;
 }
 
 .newsletter form {
@@ -316,14 +316,12 @@ img {
 	margin: 10px;
 	font-size: 20px;
 	text-align: center;
-	font-family: Bkoodak;
 }
 
 .save-btn {
 	width: 104px;
 	height: 42px;
 	font-size: 24px;
-	font-family: Bkoodak;
 	background: #f26d7d;
 	border: 0;
 	color: #122ae1;
@@ -341,14 +339,14 @@ img {
 }
 
 .login h2 {
-    color: #e19f12;
-    text-align: center;
-    font-size: 30px;
-    width: 115px;
-    height: 45px;
-    margin-right: 33%;
-    margin-top: 5px;
-    border-bottom: 3px solid #cd2122;
+	color: #e19f12;
+	text-align: center;
+	font-size: 30px;
+	width: 115px;
+	height: 45px;
+	margin-right: 33%;
+	margin-top: 5px;
+	border-bottom: 3px solid #cd2122;
 }
 
 .login form {
@@ -361,19 +359,17 @@ img {
 	margin: 10px;
 	font-size: 20px;
 	text-align: center;
-	font-family: Bkoodak;
 }
 
 .login-btn {
 	width: 104px;
-    height: 42px;
-    font-size: 24px;
-    font-family: Bkoodak;
-    background: #4b0049;
-    border: 0;
-    color: #20ffbd;
-    border-radius: 15px;
-    margin-right: 33%;
+	height: 42px;
+	font-size: 24px;
+	background: #4b0049;
+	border: 0;
+	color: #20ffbd;
+	border-radius: 15px;
+	margin-right: 33%;
 }
 
 footer {
@@ -442,26 +438,26 @@ footer .copyright {
 
 	.newsletter {
 		width: 560px;
-	    margin-right: 10%;
+		margin-right: 10%;
 	}
 
 	.row4 .newsletter form {
-   		margin: 18px 87px 10px 10px;
+		margin: 18px 87px 10px 10px;
 	}
 
 	.row4 .newsletter form input {
 		width: 290px;
-	    height: 59px;
-	    margin-right: 10%;
+		height: 59px;
+		margin-right: 10%;
 	}
 
 	.save-btn {
-	    margin-right: 40%;
+		margin-right: 40%;
 	}
 
 	.login {
 		width: 560px;
-	    margin-left: 13%;
+		margin-left: 13%;
 	}
 
 	.login h2 {
@@ -469,16 +465,16 @@ footer .copyright {
 	}
 
 	.row4 .login form {
-   		margin: 18px 87px 10px 10px;
+		margin: 18px 87px 10px 10px;
 	}
 
 	.row4 .login form input {
 		width: 290px;
-	    height: 59px;
-	    margin-right: 10%;
+		height: 59px;
+		margin-right: 10%;
 	}
 
 	.login-btn {
-	    margin-right: 40%;
+		margin-right: 40%;
 	}
 }

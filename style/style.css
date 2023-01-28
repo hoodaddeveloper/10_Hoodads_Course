@@ -37,44 +37,44 @@ img {
 }
 
 .top-bar {
-	background-color: #f26522;
 	height: 100px;
 	position: relative;
+	background-color: #f26522;
 }
 
 .socials ul {
 	margin-right: 40px;
 }
 .socials img {
-	height: 50px;
 	width: 50px;
+	height: 50px;
 	float: right;
 	margin-left: 5px;
 	padding: 25px 0 0 2px;
 }
 
 .logo img {
-	margin-right: 80px;
 	margin-top: 20px;
+	margin-right: 80px;
 	background-color: #fff;
 }
 
 .search {
-	position: absolute;
-	background-color: #252525;
 	top: 36px;
 	left: 50px;
+	position: absolute;
+	background-color: #252525;
 }
 
 .search input {
+	border: 0;
 	width: 150px;
 	height: 34px;
-	border: 0;
-	background: #252525;
-	color: #dde1d5;
-	border-left: 1px solid #fff;
 	font-size: 20px;
+	color: #dde1d5;
 	padding-right: 10px;
+	background: #252525;
+	border-left: 1px solid #fff;
 }
 
 .search .search-btn {
@@ -86,8 +86,8 @@ img {
 
 .top-menu {
 	height: 150px;
-	background-color: #111111;
 	position: relative;
+	background-color: #111111;
 }
 
 .top-menu ul {
@@ -96,41 +96,41 @@ img {
 }
 
 .top-menu ul li {
-	list-style: none;
-	display: block;
 	float: right;
 	height: 150px;
+	display: block;
+	list-style: none;
 	margin-right: 10px;
 }
 
 .top-menu ul li a {
 	color: #fff;
-	font-size: 25px;
-	display: block;
 	height: 150px;
+	display: block;
+	font-size: 25px;
 	padding-top: 53px;
 	padding-left: 8px;
 	padding-right: 8px;
 }
 
 .top-menu ul li a:hover {
-	background-color: #d5dbe6;
 	color: #0096ff;
+	background-color: #d5dbe6;
 	border-top: 5px solid #39b54a;
 }
 
 .top-menu ul li a.home {
-	background-color: #ebebeb;
-	color: #e3070c;
-	border-top: 5px solid #39b54a;
 	height: 146px;
+	color: #e3070c;
+	background-color: #ebebeb;
+	border-top: 5px solid #39b54a;
 }
 
 .form1 {
-	text-align: left;
-	position: absolute;
 	top: 15px;
 	left: 60px;
+	text-align: left;
+	position: absolute;
 }
 
 .form1 .username , .form1 .password {

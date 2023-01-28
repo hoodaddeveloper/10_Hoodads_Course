@@ -134,73 +134,73 @@ img {
 }
 
 .form1 .username , .form1 .password {
-	display: block;
 	width: 166px;
 	height: 38px;
-	padding-right: 1px;
-	margin-top: 10px;
+	display: block;
 	font-size: 22px;
+	margin-top: 10px;
 	color: #757a74;
 	padding-top: 5px;
+	padding-right: 1px;
 	text-align: center;
 }
 
 .form1 .register {
 	position: absolute;
-	left: 180px;
 	top: 43px;
+	border: 0;
+	left: 180px;
 	width: 94px;
 	height: 42px;
-	background: #32004b;
-	border: 0;
-	color: #31fd02;
 	font-size: 24px;
+	color: #31fd02;
 	border-radius: 15px;
+	background: #32004b;
 }
 
 .slider {
 	height: 363px;
-	background: url('../images/slider.jpg') no-repeat center center;
 	position: relative;
+	background: url('../images/slider.jpg') no-repeat center center;
 }
 
 .slide-navigation .slide-next {
-	background:url('../images/slide-next.png');
+	right: 5px;
+	top: 142px;
 	width: 88px;
 	height: 84px;
 	position: absolute;
-	right: 5px;
-	top: 142px;
+	background:url('../images/slide-next.png');
 }
 
 .slide-navigation .slide-prev {
-	background:url('../images/slide-prev.png');
+	left: 5px;
+	top: 142px;
 	width: 88px;
 	height: 84px;
 	position: absolute;
-	left: 5px;
-	top: 142px;
+	background:url('../images/slide-prev.png');
 }
 
 .slide-select {
-	position: absolute;
 	right: 50px;
 	bottom: 20px;
+	position: absolute;
 }
 
 .slide-select li {
-	background: #fff;
 	width: 10px;
 	height: 10px;
-	border-radius: 50%;
 	float: right;
 	margin-left: 3px;
+	background: #fff;
+	border-radius: 50%;
 }
 
 .slide-select li a {
-	position: absolute;
 	width: 10px;
 	height: 10px;
+	position: absolute;
 }
 
 .slide-select li a:hover {

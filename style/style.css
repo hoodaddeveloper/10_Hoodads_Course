@@ -204,13 +204,13 @@ img {
 }
 
 .slide-select li a:hover {
-	background-color: #1eff00;
 	border-radius: 50%;
+	background-color: #1eff00;
 }
 
 .slide-select li a:active {
-	background-color: #ed1c24;
 	border-radius: 50%;
+	background-color: #ed1c24;
 }
 
 .slide-text {
@@ -220,25 +220,25 @@ img {
 }
 
 .slide-text h2 {
-	font-size: 20px;
-	color: #125bf0;
-	background: #fff;
 	width: 150px;
 	opacity: 0.8;
+	font-size: 20px;
+	color: #125bf0;
 	text-align: center;
+	background: #fff;
 	border-radius: 15px;
 }
 
 .slide-text p {
-	color: #f6ff02;
-	background: #ed1c24;
 	width: 150px;
-	border-radius: 15px;
 	height: 83px;
 	font-size: 23px;
-	text-align: center;
+	color: #f6ff02;
 	margin-top: -30px;
 	padding-top: 30px;
+	text-align: center;
+	border-radius: 15px;
+	background: #ed1c24;
 }
 
 .row3 {
@@ -246,16 +246,16 @@ img {
 }
 
 .title {
+	color: #fff;
 	width: 156px;
 	font-size: 33px;
-	border-radius: 15px;
-	border: 3px solid #39b54a;
-	margin-right: 410px;
-	text-align: center;
-	background: #440e62;
-	color: #fff;
 	margin-top: 14px;
+	text-align: center;
+	border-radius: 15px;
+	margin-right: 410px;
 	margin-bottom: 10px;
+	background: #440e62;
+	border: 3px solid #39b54a;
 }
 
 .content {
@@ -280,30 +280,30 @@ img {
 }
 
 .content .box h3 {
-	font-size: 30px;
 	color: #000;
+	font-size: 30px;
 }
 
 .row4 {
 	height: 340px;
-	background: #b7b7b7;
 	padding-bottom: 10px;
+	background: #b7b7b7;
 }
 
 .newsletter {
 	float: right;
-	background-color: #007236;
 	width: 340px;
 	height: 310px;
-	margin-right: 50px;
 	margin-top: 20px;
+	margin-right: 50px;
+	background-color: #007236;
 }
 
 .newsletter h2 {
-	background: #111111;
+	font-size: 30px;
 	color: #e19f12;
 	text-align: center;
-	font-size: 30px;
+	background: #111111;
 }
 
 .newsletter form {
@@ -319,33 +319,33 @@ img {
 }
 
 .save-btn {
+	border: 0;
 	width: 104px;
 	height: 42px;
 	font-size: 24px;
-	background: #f26d7d;
-	border: 0;
 	color: #122ae1;
-	border-radius: 15px;
 	margin-right: 33%;
+	border-radius: 15px;
+	background: #f26d7d;
 }
 
 .login {
 	float: left;
-	background-color: #007236;
 	width: 340px;
 	height: 310px;
-	margin-left: 50px;
 	margin-top: 20px;
+	margin-left: 50px;
+	background-color: #007236;
 }
 
 .login h2 {
-	color: #e19f12;
-	text-align: center;
-	font-size: 30px;
 	width: 115px;
 	height: 45px;
-	margin-right: 33%;
+	font-size: 30px;
 	margin-top: 5px;
+	color: #e19f12;
+	margin-right: 33%;
+	text-align: center;
 	border-bottom: 3px solid #cd2122;
 }
 
@@ -362,14 +362,14 @@ img {
 }
 
 .login-btn {
+	border: 0;
 	width: 104px;
 	height: 42px;
 	font-size: 24px;
-	background: #4b0049;
-	border: 0;
 	color: #20ffbd;
-	border-radius: 15px;
 	margin-right: 33%;
+	border-radius: 15px;
+	background: #4b0049;
 }
 
 footer {
@@ -379,17 +379,17 @@ footer {
 }
 
 footer ul {
+	margin-top: 10px;
 	text-align: center;
 	display: inline-block;
-	margin-top: 10px;
 }
 
 footer ul li {
-	display: inline-block;
 	float: right;
 	margin-left: 10px;
-	border-left: 1px solid #fff;
 	padding-left: 10px;
+	display: inline-block;
+	border-left: 1px solid #fff;
 }
 
 footer ul li:last-child {
@@ -397,9 +397,8 @@ footer ul li:last-child {
 }
 
 footer ul li a {
-	color: #f6a905;
-	font-family: Bbadr;
 	font-size: 20px;
+	color: #f6a905;
 }
 
 footer .copyright {
